@@ -1,3 +1,7 @@
+-- Author: RuochenLiu
+-- Email: ruochen.liu@columbia.edu
+-- Version: 1.0.0
+
 local host, port = "127.0.0.1", 8001
 local socket = require("socket")
 local tcp = assert(socket.tcp())
