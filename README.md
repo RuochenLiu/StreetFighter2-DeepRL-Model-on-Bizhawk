@@ -1,8 +1,8 @@
 # Reinforcement Learning for Street Fighter 2
 ## Overview
-For this project, I set up an online DRL training environment for Street Fighter 2 (Sega MD) on Bizhawk and with the same method, we could train models for any other games on Bizhawk.
-There are two parts of code. A Python script with socket server and neural network will receive observations, return actions, and update weights of NN. A Lua script with socket client will grab, preprocess and send observations, take actions and control the emulator.
-
+For this project, I set up an online DRL training environment for Street Fighter 2 (Sega MD) on Bizhawk and with the same method, we could train models for any other games on Bizhawk.  
+There are two parts of code. A Python script with socket server and neural network will receive observations, return actions, and update weights of NN. A Lua script with socket client will grab, preprocess and send observations, take actions and control the emulator.  
+### Testing preview
 ![](https://github.com/RuochenLiu/StreetFighter2-DeepRL-Model-on-Bizhawk/blob/master/image/vsGuile_slow.gif)  ![](https://github.com/RuochenLiu/StreetFighter2-DeepRL-Model-on-Bizhawk/blob/master/image/vsFeilong_slow.gif)
 ## Bizhawk and related work
 ‘[BizHawk](http://tasvideos.org/BizHawk.html) is a multi-system emulator, which provides nice features for casual gamers such as fullscreen, rewind, and joypad support in addition to rerecording and debugging tools for all system cores.’
