@@ -1,3 +1,9 @@
+##################################################
+## Author: RuochenLiu
+## Email: ruochen.liu@columbia.edu
+## Version: 1.0.0
+##################################################
+
 import numpy as np
 import pandas as pd
 import random
