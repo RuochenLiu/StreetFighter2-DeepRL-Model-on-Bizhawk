@@ -80,4 +80,4 @@ Python is set as neural network server while Lua is set as agent client with soc
 ### Result
 After 1200 episodes trained, my Sagat is tested by fighting against all players and winning rates are here.
 ![test result](https://github.com/RuochenLiu/StreetFighter2-DeepRL-Model-on-Bizhawk/blob/master/image/test_result.png)
-Some parts still need to be fixed. Each chosen action affects the following frames and the recovery time may cause negative rewards, which has nothing to do with the next action chose by the model. Combo moves are hard to be learnt because start-up, duration and recovery time for each move differs from each other.
+Some parts still need to be fixed. Each chosen action affects the following frames and the recovery time may cause negative rewards, which has nothing to do with the next action chosen by the model. Combo moves are hard to be learned because start-up, duration and recovery time for each move differ from each other.
